@@ -1,29 +1,29 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
-
-.background {
+body {
     background-image: url("../images/carbon_fiber.png");
+    border: none;
+    margin: auto;
 }
-
 header {
     background-image: url("../images/concrete.png");
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 auto;
 }
-
 header h1 {
     font-weight: bold;
-    font-size: 52px;
+    font-size: 36px;
     color: #92a9dae7;
-    padding: 0 0 0 35px;
     text-shadow: 0 13px 13px rgba(12, 13, 19, 0.589);
-
+    padding: 0 0 0 15px;
 }
-
+header nav {
+    margin: 10px 0;
+}
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -31,62 +31,73 @@ header nav ul {
     align-items: center;
     list-style: none;
 }
-
 header nav ul li a {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: right;
-    list-style: none;
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 2.1vw;
+    font-size: 1.6vw;
     text-shadow: 0 13px 13px rgba(12, 13, 19, 0.589);
-    list-style: none;
-    color: #92a9dae7
-
+    color: #92a9dae7;
 }
-
 header a {
     text-decoration: none;
 }
-
-
-.about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align:center;
-    color: #92a9dae7;
-    font-size: 22px;
-    max-width: 25%;
-    padding: 10px 0 10px 25px;
-    text-shadow: 0 13px 13px rgba(12, 13, 19, 0.589);
-    line-height: 1.2;
-
-}
-
-.about img {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    position: relative;
-    border-radius: 10px;
-    padding: 15px 0 15px 0;
-
-
-
+.about-me {
+display:flex;
+flex-wrap: wrap;
 }
 
 .about h2 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin: 0 500px;
+    font-weight: bold;
+    font-size: 32px;
+    color:#92a9dae7;
+    border-bottom: 2px solid;
+}
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 15px 0 0 0;
+}
+.about p {
+    justify-content: space-around;
+    border: solid 2px;
+    background-color:rgba(34, 74, 109, 0.452);
     color: #92a9dae7;
-    font-size: 40px;
-    border-bottom: 3px solid;
+    line-height: 1.2;
+    font-size: 22px;
+    text-shadow: 0 13px 13px rgba(12, 13, 19, 0.589);
+    margin: 0 300px;
+}
+.work h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 60px;
+    font-weight: bold;
+    font-size: 32px;
+    border-bottom: 2px solid;
+    margin: 0 500px;
+    color:#92a9dae7;
 }
 
+
+
+
+
 footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 40px 35px;
     background-image: url("../images/carbon_fiber.png");
-    color: #27ae60;
+    color: #92a9dae7;
+}
+footer div {
+    font-size: 20px;
 }
