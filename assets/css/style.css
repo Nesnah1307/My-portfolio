@@ -100,17 +100,16 @@ flex-wrap: wrap;
 }
 
 
-.contact-links h2 {
+.contacts h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px 0 0 0;
-    margin: 0 600px;
+    margin: 0 700px;
     font-weight: bold;
     font-size: 32px;
     color:#92a9dae7;
     border-bottom: 2px solid;
-    list-style-type: none;
 }
 .contacts address {
     display: flex;
@@ -121,6 +120,10 @@ flex-wrap: wrap;
     padding: 55px 450px 300px 0;
 }
 
+span ul {
+    list-style-type: none;
+    margin: 25px 0 0 500px; 
+}
 footer {
     display: flex;
     justify-content: space-between;
