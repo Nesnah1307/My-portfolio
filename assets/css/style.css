@@ -112,8 +112,32 @@ display:flex;
     top: 0;
     margin: auto;
     font-size: 28px;
+    text-decoration: underline;
+    color: rgb(216, 219, 31);
+    text-shadow: 0 13px 13px rgba(12, 13, 19, 0.589);
 }
 
+.time-killer {
+    position: relative;
+    margin-top: 10px;
+    
+}
+
+.time-killer h3 {
+    position: absolute;
+    top: 0;
+    margin: auto;
+    font-size: 28px;
+    text-decoration: underline;
+    color: rgb(216, 219, 31);
+    text-shadow: 0 13px 13px rgba(12, 13, 19, 0.589);
+}
+
+.blank {
+    position: relative;
+    margin-left: 15px;
+    margin-top: 15px;
+}
 
 .contacts h2 {
     text-align: center;
@@ -130,12 +154,12 @@ display:flex;
     justify-content: space-around;
     font-size: 22px;
     color:#92a9dae7;
-    /* padding: 55px 450px 300px 0; */
+    
 }
 
 span ul {
     list-style-type: none;
-    /* margin: 25px 0 0 500px;  */
+    
 }
 footer {
     display: flex;
