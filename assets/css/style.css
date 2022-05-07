@@ -115,6 +115,8 @@ display:flex;
     text-decoration: underline;
     color: rgb(216, 219, 31);
     text-shadow: 0 13px 13px rgba(12, 13, 19, 0.589);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .time-killer {
@@ -131,8 +133,26 @@ display:flex;
     text-decoration: underline;
     color: rgb(216, 219, 31);
     text-shadow: 0 13px 13px rgba(12, 13, 19, 0.589);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.668);
 }
 
+.blueit {
+    position: relative;
+}
+
+.blueit h3 {
+    position: absolute;
+    padding-left: 150px;
+    top: 0;
+    margin: auto;
+    font-size: 28px;
+    text-decoration: underline;
+    color: rgb(216, 219, 31);
+    text-shadow: 0 13px 13px rgba(12, 13, 19, 0.367);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
 .blank {
     position: relative;
     margin-left: 15px;
